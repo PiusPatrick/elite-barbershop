@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Cuts Barbershop</title>
+
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <header>
+        <h1>Elite Cuts</h1>
+
+        <button class="menu-toggle">
+    <span>☰</span>
+    <span>✖</span>
+</button>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+
+            <h2>Look Sharp. Feel Fresh</h2>
+
+            <p>
+                Professional grooming and barbering Services made for you.
+            </p>
+            <button id="bookbutton">
+                Book an Appointment
+            </button>
+
+        </section>
+
+        <section id="about">
+
+            <h2>About Us</h2>
+
+            <p>
+                Welcome to Elite Cuts.We provide professional baebering services in a clean and comfortable enviroment.
+            </p>
+        </section>
+
+        <section id="services">
+
+            <h2>Our Services</h2>
+
+            <div class="service-container">
+
+            <div class="service-card">
+                <h3>Premium Haircut</h3>
+                <p>₦5,000</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="service-card">
+                <h3>Low Fade</h3>
+                <p>₦5,000</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="service-card">
+                <h3>Mid Fade</h3>
+                <p>₦5,000</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="service-card">
+                <h3>High Fade</h3>
+                <p>₦5,000</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="service-card">
+                <h3>Haircut & Dye</h3>
+                <p>₦7,900</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="service-card">
+                <h3>Beard Trim</h3>
+                <p>₦2,000</p>
+                <button>Book Now</button>
+            </div>
+
+            </div>
+
+        </section>
+
+        <section id="booking">
+            <h2>Book an Appointment</h2>
+            
+            <form id="booking-form">
+
+                <lable for="name">Your Name</lable>
+                <input type="name" id="name" placeholder="Enter your Name">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <lable for="service">Choose a Haircut</lable>
+                <select id="service">
+                    <option value="">Select a haircut</option>
+                    <option value="mid-fade">Mid Fade</option>
+                    <option value="high-fade">High Fade</option>
+                    <option value="low-fade">Low Fade</option>
+                    <option value="premium-haircut">Premium Haircut</option>
+                    <option value="beard-trim">Beard Trim</option>
+                    <option value="haircut-&-dye">Haircut & Dye</option>
+                </select>
+
+                <label for="date">Choose a Date</label>
+                <input type="date" id="date">
+
+                <label for="time">Choose a time</label>
+                <input type="time" id="time">
+
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Phone:
+                <a href="tel:09031113060">09031113060</a>
+            </p>
+            <p>
+                Email:
+                <a href="mailto:mychatmail03@gmail.com">mychatmail03@gmail.com</a>
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© Elites Cuts Barbershop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
